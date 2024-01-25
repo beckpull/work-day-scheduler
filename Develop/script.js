@@ -1,6 +1,4 @@
-// Wraps all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
+// Wraps all code that interacts with the DOM in a call to jQuery to ensure that the code isn't run until the browser has finished rendering all the elements in the html.
 
 $(function () {
   setTime();
@@ -17,28 +15,45 @@ $(function () {
   
       var parentId = parentElement.attr('id');
       localStorage.setItem(parentId, toDo);
-      console.log(parentId + ' ' + toDo)
   });
   
 
-  // TODO: Add code to apply the past, present, or future class to each time
-  // block by comparing the id to the current hour. HINTS: How can the id
-  // attribute of each time-block be used to conditionally add or remove the
-  // past, present, and future classes? How can Day.js be used to get the
-  // current hour in 24-hour time?
+  // Applies the past, present, or future class to each time block by comparing the id to the current hour.
 
   var currentHour = dayjs().hour();
 
+  $('.time-block').each(function() {
 
-  // TODO: Add code to get any user input that was saved in localStorage and set
-  // the values of the corresponding textarea elements. HINT: How can the id
-  // attribute of each time-block be used to do this? 
+      var elementId = $(this).attr('id');
+      var hourNumber = parseInt(elementId.split('-')[1]);
 
+      if (hourNumber < currentHour) {
+          $(this).addClass('past');
+      } else if (hourNumber === currentHour) {
+          $(this).addClass('present');
+      } else {
+          $(this).addClass('future');
+      }
+  });
 
+  // Gets any user input that was saved in localStorage and sets the values of the corresponding textarea elements.
+
+  $('.time-block').each(function() {
+
+    var parentElement = $(this);
+    var parentId = parentElement.attr('id');
+    var toDos = localStorage.getItem(parentId);
+
+    if (toDos !== null && toDos !== undefined) {
+      parentElement.find('textarea').val(toDos);
+    }
+
+  })
 
   // Displays the current date in the header of the page.
 
   function setTime() {
+    
     timerInterval = setInterval(function() {
       var today = dayjs().format('dddd MMMM DD, YYYY HH:mm:ss');
       $('#currentDay').text(today);
