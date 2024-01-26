@@ -53,6 +53,8 @@ This is what you can expect to see upon opening the page:
 
 This webpage was built with Bootstrap which makes it extremely responsive to any browser size:
 
+> Click into any hour block, type whatever you have to do that hour, and click the little floppy disk (save) button to the right of the respective block and it will save your information for the next time you use the page!
+
 <img src="./Assets/picture-3.png"  width="330rem"> <img src="./Assets/picture-2.png"  width="331rem"> <img src="./Assets/picture-6.png"  width="340rem">
 
 
