@@ -33,7 +33,7 @@ This is a simple work day scheduler that can be used to organize one's activitie
 
 This is what you can expect to see upon opening the page:
 
->> The hourly blocks that are the past will display grey, the present time block will display red and the future time blocks will display green.
+> The hourly blocks that are the past will display grey, the present time block will display red and the future time blocks will display green.
 
 ![Work Day Scheduler Screenshot](./assets/picture-1.png)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
