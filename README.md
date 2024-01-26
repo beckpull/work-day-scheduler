@@ -53,9 +53,9 @@ This is what you can expect to see upon opening the page:
 
 This webpage was built with Bootstrap which makes it extremely responsive to any browser size:
 
-<img src="./Assets/picture-3.png"  width="400rem" display='inline'>
-<img src="./Assets/picture-2.png"  width="400rem" display='inline'>
-<img src="./Assets/picture-6.png"  width="411rem" display='inline'>
+<img src="./Assets/picture-3.png"  width="200rem" display='inline'>
+<img src="./Assets/picture-2.png"  width="200rem" display='inline'>
+<img src="./Assets/picture-6.png"  width="211rem" display='inline'>
 
 
 All of your saved daily actions will actually save on this webpage so you can revisit and edit whenever you want!
