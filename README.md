@@ -35,7 +35,7 @@ This is what you can expect to see upon opening the page:
 
 > The hourly blocks that are the past will display grey, the present time block will display red and the future time blocks will display green.
 
-![Work Day Scheduler Screenshot](./Assets/picture-1.png)
+![Work Day Scheduler Screenshot](./assets/picture-1.png)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
@@ -60,8 +60,8 @@ This webpage was built with Bootstrap which makes it extremely responsive to any
 
 All of your saved daily actions will actually save on this webpage so you can revisit and edit whenever you want!
 
-![Work Day Scheduler Screenshot 5](./Assets/picture-4.png)
-![Work Day Scheduler Screenshot 6](./Assets/picture-5.png)
+![Work Day Scheduler Screenshot 5](./assets/picture-4.png)
+![Work Day Scheduler Screenshot 6](./assets/picture-5.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
