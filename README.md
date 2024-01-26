@@ -93,9 +93,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 **Rebecca Feltman** - [Email me](mailto:beckpull@icloud.com) - or check me out on [GitHub!](https://github.com/beckpull) 
 
->Project Link: [https://github.com/beckpull/fun-code-quiz](https://github.com/beckpull/password-generator)
+>Project Link: [https://github.com/beckpull/work-day-scheduler](https://github.com/beckpull/work-day-scheduler)
 >
->Deployed Page: [https://beckpull.github.io/fun-code-quiz/](https://beckpull.github.io/password-generator/)
+>Deployed Page: [https://beckpull.github.io/work-day-scheduler/](https://beckpull.github.io/work-day-scheduler/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
